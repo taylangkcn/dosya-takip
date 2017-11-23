@@ -1,0 +1,80 @@
+.padding-15{
+	padding: 15px !important;
+}
+
+.margin-left-e70{
+	margin-left: -70px !important;
+}
+.modal .modal-content .modal-body p{
+	border-bottom: 1px solid #ccc;
+}
+.modal .modal-content .modal-body p b{
+	width: 40%;
+	display: inline-block;
+}
+.modal .modal-content .modal-body p span{
+	width: 60%;
+}
+.modal .modal-content .modal-body b:before{
+	content: ':';
+	float: right;
+}
+
+.modal .modal-content .modal-footer .w100{
+	width: 100%!important;
+	margin-top: 10px;
+}
+
+.modal .modal-content .modal-footer .w25{
+	width: 23.9%!important;
+}
+@media(min-width: 769px){
+	.table-responsive{
+		overflow: visible;
+	}
+}
+	
+.text-auto{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+}
+
+.bg-canvas{
+    background: url(../images/canvas.png)!important;
+    border: 1px solid #ccc!important;
+    border-radius: 0!important;
+    background-color: transparent!important;
+}
+
+/* Dark Panel */
+*{outline: none!important;border-radius: 0!important;}
+a:hover{text-decoration: none!important;}
+body{background: #424242;}
+.navbar-default{background-color: #424242;border-color: #222;}
+.nav > li > a{color: #fff;}
+.nav.nav-tabs > li > a{color: #555;}
+.sidebar ul li a.active{background:#555;}
+.nav > li > a:hover, .nav > li > a:focus{background:#555;color: #fff;}
+.navbar-default .navbar-brand{color: #fff;}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus{background-color: #555;border-color: #222222;}
+.sidebar ul li{border-color: #666;}
+.page-header{padding-bottom: 0;margin: 10px 0 10px;border-bottom: 1px solid #ddd;font-size: 30px;}
+.navbar-brand{line-height: 50px;padding: 0px 15px;}
+ul.nav li.dropdown:hover ul.dropdown-menu{display: block;margin-top: 0;}
+ul.dropdown-menu{margin-left: 0!important;left: auto;right: 0;}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{color: #ccc;}
+
+.breadcrumb{margin-bottom: 10px;background-color: #eee;}
+.breadcrumb a{color: #222;}
+.breadcrumb a:hover{text-decoration: underline!important;}
+input[type="file"] {display: block;margin-top: 7px;}
+.label-tabs{border-bottom: none;margin-top: 7px;}
+.label-tabs li{display: block;width: 100%}
+.label-tabs li label{margin-bottom: 0;font-weight: 300;}
+.label-tabs li label span:after{content: '\f10c';font-family: 'FontAwesome';}
+.label-tabs li.active label span:after{content: '\f058';font-family: 'FontAwesome';}
+.label-tabs li label:hover{cursor: pointer;}
+
+/* End Dark Panel */
